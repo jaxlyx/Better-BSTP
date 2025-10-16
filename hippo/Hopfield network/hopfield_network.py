@@ -3,12 +3,10 @@ import numpy as np
 import matplotlib
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
-# -----------------------------
+
 # 设置中文字体
-# -----------------------------
-# Windows 系统可用 "SimHei"（黑体）
+
 matplotlib.rcParams['font.sans-serif'] = ['SimHei']  
-# 避免负号显示为方块
 matplotlib.rcParams['axes.unicode_minus'] = False
 
 class HopfieldNetwork:
